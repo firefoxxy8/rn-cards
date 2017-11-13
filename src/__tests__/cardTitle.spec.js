@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { shallow } from 'enzyme';
-import CardTitle from './../CardTitle';
+import CardTitle from './../cardTitle';
 
 /** @test {CardTitle#render} */
 describe('CardTitle#render', () => {
