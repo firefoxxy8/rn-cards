@@ -12,6 +12,7 @@ const style = StyleSheet.create({
   textBlock: {
     flexDirection: 'column',
     paddingLeft: 16,
+    flex: 1,
   },
   avatar: {
     width: 48,

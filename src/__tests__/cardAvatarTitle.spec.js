@@ -91,7 +91,7 @@ describe('CardAvatarTitle#render', () => {
         .find(View)
         .at(2)
         .prop('style'),
-    ).toEqual({ paddingLeft: 16, flexDirection: 'column' });
+    ).toEqual({ paddingLeft: 16, flexDirection: 'column', flex: 1 });
   });
 
   it('should render a Text corresponding to the avatar component', () => {
